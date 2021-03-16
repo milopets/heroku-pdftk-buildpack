@@ -1,6 +1,8 @@
 # heroku-pdftk-buildpack
 buildpack with pdftk binaries, based on https://github.com/fxtentacle/heroku-pdftk-buildpack
 
+pdfkt binary is located in `/app/bin` folder
+
 ## How to build new version yourself
 
 Set `tarball_url` to the desired pdftk version in `scripts/build.sh`
